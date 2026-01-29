@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-dark: #3F4E4F;
+  --color-brand-light: #c9ac82;
+}
+
+@layer base {
+  body {
+    background: linear-gradient(135deg, var(--color-brand-dark) 0%, #2a3738 100%);
+    min-height: 100vh;
+  }
+}
