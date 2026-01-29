@@ -254,6 +254,33 @@ export default function WebhookUploader() {
               )}
             </button>
           </form>
+
+          {/* Download Template Section */}
+          <div className="mt-6 pt-6 border-t-2 border-gray-200">
+            <a
+              href="/Lista-mailingowa.xlsx"
+              download
+              className="flex items-center justify-center gap-3 w-full py-3 px-4 
+                bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-xl 
+                font-medium transition-all hover:-translate-y-0.5 hover:shadow-lg"
+            >
+              <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                className="h-5 w-5" 
+                fill="none" 
+                viewBox="0 0 24 24" 
+                stroke="currentColor"
+              >
+                <path 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round" 
+                  strokeWidth={2} 
+                  d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" 
+                />
+              </svg>
+              <span>Pobierz szablon listy mailingowej</span>
+            </a>
+          </div>
         </div>
       </div>
     </div>
