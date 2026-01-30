@@ -281,6 +281,32 @@ export default function WebhookUploader() {
               <span>Pobierz szablon listy mailingowej</span>
             </a>
           </div>
+
+          {/* Tutorial Video Section */}
+          <div className="mt-6 pt-6 border-t-2 border-gray-200">
+            <div className="mb-4 text-center">
+              <h3 className="text-xl font-semibold mb-2" style={{ color: 'var(--color-brand-dark)' }}>
+                📹 Tutorial - Jak korzystać z systemu
+              </h3>
+              <p className="text-sm text-gray-600">
+                Obejrzyj krótkie szkolenie pokazujące obsługę systemu wysyłki maili
+              </p>
+            </div>
+            <div className="relative w-full rounded-xl overflow-hidden shadow-lg" style={{ paddingBottom: '56.25%' }}>
+              <video 
+                className="absolute top-0 left-0 w-full h-full"
+                controls
+                preload="metadata"
+                style={{ objectFit: 'contain', backgroundColor: '#000' }}
+              >
+                <source 
+                  src="https://pub-fba33842c91c4b7c939f0b4496f120f7.r2.dev/Szkolenie.mp4" 
+                  type="video/mp4" 
+                />
+                Twoja przeglądarka nie obsługuje odtwarzacza wideo.
+              </video>
+            </div>
+          </div>
         </div>
       </div>
     </div>
